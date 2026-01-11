@@ -22,14 +22,24 @@ footer {
 }
 
 footer span {
-    font-size: 80%;
+    font-size: 70%;
     height: 65px;
-    line-height: 65px;
     margin: 0;
 }
 
+@media (max-width: 700px) {
+    footer {
+        margin-bottom: 85px;
+    }
+}
+
+@media (min-width: 700px) {
+    footer span {
+        line-height: 65px;
+    }
+}
+
 h1 {
-    font-family: 'Helvetica', 'Arial', sans-serif;
     color: #3D4D59;
 }
 
